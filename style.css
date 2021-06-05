@@ -138,9 +138,10 @@ h1
 .hero-content 
 {
   display: flex;
-  width: 60%;
+  width: 54%;
   padding: 0 15px 30px 15px;
   flex-direction: column;
+  padding-right:100px
 }
 
 .hero-heading 
@@ -150,7 +151,7 @@ h1
   color: #ffffff;
   width: fit-content;
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom:0;
 }
 
 .hero-paragraph 
@@ -159,9 +160,9 @@ h1
   font-size: 20px;
   color: #ffffff;
   line-height: 1.5em;
-  font-weight: 700;
-  margin: 0;
-  padding-bottom: 20px;
+  font-weight: 550px;
+  padding-bottom: 10px;
+  padding-right: 18px;
 }
 
 .hero-button-container
