@@ -64,6 +64,31 @@ body
   display: none;
 }
 
+.small-icon 
+{
+  width: 18px;
+  height: 18px;
+}
+
+.arrow-container
+{
+  margin-left: 3px;
+}
+
+.hamburger-icon-mobile
+{
+  display: none;
+}
+
+.search-icon-container 
+{
+  display: flex;
+  align-items: center; 
+  margin-top: 0;
+  padding-bottom: 2px;
+  padding-right: 0;
+}
+
 /* navbar media querrie */
 @media screen and (min-width: 1024px) 
 {
@@ -226,28 +251,4 @@ body
   {
   margin:0 0 0 20px;
   }
-}
-
-.small-icon 
-{
-  width: 18px;
-  height: 18px;
-}
-
-.arrow-container
-{
-  margin-left: 3px;
-}
-
-.hamburger-icon-mobile
-{
-  display: none;
-}
-.search-icon-container 
-{
-  display: flex;
-  align-items: center; 
-  margin-top: 0;
-  padding-bottom: 2px;
-  padding-right: 0;
 }
