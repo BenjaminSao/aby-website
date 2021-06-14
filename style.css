@@ -611,3 +611,66 @@ height:100%;
 }
 
 }
+
+/* keep uptodate section */
+
+.keep-up-to-date-section
+{
+  background-color: #000;
+}
+
+.keep-up-to-date-heading
+{
+  padding-left: 20px;
+}
+
+.social-image-size
+{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.social-items-all
+{
+  display: flex;
+  padding:30px 10px;
+  flex-direction: column;
+}
+
+.social-item
+{
+  flex-basis:100%;
+  padding: 15px;
+}
+
+.title-golden
+{
+  color:#FFBA0E;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding:20px 0px;
+}
+/* keep uptodate section media*/
+
+@media screen and (min-width: 1024px) 
+
+{
+  
+  .social-items-all
+{
+  display: flex;
+  flex-direction: row;
+  padding:30px 10px;
+  /* not used as media implemented 
+  flex-wrap: wrap;  */
+}
+
+.social-item
+{
+  flex-basis:22%;
+  padding:15px 10px 10px 15px;
+}
+
+}
