@@ -744,3 +744,144 @@ height:100%;
 }
 
 }
+/*Follow us section*/
+
+.follow-us-section
+
+{
+  background-color:#000;
+}
+
+.Follow-us-section-header
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;  
+  padding:25px 0px;
+}
+
+.follow-us-social-share-container
+{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom:70px ;
+}
+
+.social-share-window-mobile
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  background-color: rgb(255, 255, 255 );
+  border-radius: 10px  ;
+  padding-bottom: 10px;
+  margin: 0px 30px;
+}
+
+.social-share-window
+{
+  display:none
+}
+.social-share-heading
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.social-share-image
+{
+  height:36px;
+  width:36px;
+  padding-right: 10px;
+}
+
+.social-heading-name
+{
+  font-size: 14px;
+  color: #1c2022;
+  padding:0px 30px 1px 0px;
+}
+.social-media-id
+{
+  font-size: 12px;
+  color:#777777;
+  padding:0px 2px 0px 0px;
+}
+
+.social-share-content
+{
+  color:#222;
+  font-size: 14px;
+  padding: 15px 10px 0px;
+
+}
+
+.social-share-footer
+{
+  display: flex;
+  justify-content: flex-start;
+  padding:80px 0px 0px 16px;
+}
+
+.footer-icon
+{
+  height:14px;
+  width:20px;
+  padding-left:6px;
+}
+
+
+/*Follow us section media*/
+@media screen and (min-width: 1024px) 
+{
+
+.follow-us-social-share-container
+{
+  display: flex;
+  justify-content: space-between;
+}
+.social-share-window
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: spae-between;
+  width:25%;
+  background-color: rgb(255, 255, 255 );
+  border-radius: 10px  ;
+  padding-bottom: 10px;
+}
+.social-share-window-mobile
+{
+  width:25%;
+  margin:0;
+}
+
+.social-share-heading
+{
+  display: flex;
+  justify-content: space-between;
+  padding:15px 10px 0px;
+}
+.heading-links
+{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  justify-content: center;
+}
+.social-share-content
+{
+  color:#222;
+  font-size: 14px;
+}
+
+.social-share-footer
+{
+  display: flex;
+  justify-content: flex-start;
+  padding:30px 0px 0px 16px;
+}
+}
