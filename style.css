@@ -1016,3 +1016,42 @@ height:100%;
   }
   
 }
+/* try for free section */
+
+.try-for-free-section-container
+{
+  display: flex;
+  flex-direction:column ;
+  padding-left: 10px;
+  background-color: #000;
+  padding:40px 30px 40px;
+}
+.bottom-try-for-free-button
+{
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 18px 50px;
+  border-radius: 2px;
+  color: #fff;
+  background-color:#F05A28;
+  font-family: 'Spartan', sans-serif;
+  width: 100%;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+@media screen and (min-width: 1024px) 
+{
+  .try-for-free-section-container
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: space-between;
+  background-color: #000;
+  padding:70px;
+}
+
+}
