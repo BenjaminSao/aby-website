@@ -674,27 +674,36 @@ height:100%;
 }
 
 }
-
+.skilling-up-image
+{
+  width:100%;
+  height:auto;
+  /* just used for content size to fill*/
+  display:flex;
+}
 /* skilling up section */
 
 .skilling-up-container
 {
   display: flex;
   flex-direction: column;
-  background-image:url(https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/targeted_section/targeted-parsys-default/generic_block_143764/parsys/columns/column-parsys-1/generic_block/image-res.img.53208dab-1547-495a-b596-ae2cacd07ea5.png);
-  background-position:center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image:none;
+  background-color: #222;
+  
+}
+.skilling-up-left
+{
+  padding:0;
+  margin:0px 10px;
 }
 
 .skilling-up-right
 {
-  flex-basis: 40%;
   display: flex;
   flex-direction: column;
   background-color: rgb(236, 0, 139);
   padding:10px;
-  margin-top: 400px;
+  margin:0px 10px;
 }
 
 .skilling-up-icon
@@ -713,7 +722,7 @@ height:100%;
   color: #fff;
   background-color: #181818;
   font-family: 'Spartan', sans-serif;
-  width:330px;
+  width:80%;
   height:auto;
   border: 1px solid transparent;
   margin: 15px 0px 15px;
@@ -733,7 +742,10 @@ height:100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-
+  background-image:url(https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/targeted_section/targeted-parsys-default/generic_block_143764/parsys/columns/column-parsys-1/generic_block/image-res.img.53208dab-1547-495a-b596-ae2cacd07ea5.png);
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
  }
  
  .skilling-up-right
@@ -741,6 +753,10 @@ height:100%;
   flex-basis: 30%;
   padding:50px;
   margin: 0;
+}
+.skilling-up-left
+{
+  display: none;
 }
 
 }
