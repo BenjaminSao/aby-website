@@ -283,6 +283,7 @@ h3,h6,p
 {
   display:flex;
   flex-direction: column;
+  padding: 50px 0px;
 }
 
 .program-study-path
@@ -311,7 +312,7 @@ h3,h6,p
 }
 .program-study-path-content
 {
-  padding:10px;
+  padding: 15px 25px;
   flex-basis: 80%;
 }
 
@@ -320,9 +321,10 @@ h3,h6,p
   background-color: #000;;
   width:auto;
   padding:10px;
+  margin-bottom: 50px;
 }
 
-.program-study-elements-conatiner
+.program-study-elements-container
 {
   display: flex;
   flex-direction: column;
@@ -349,7 +351,7 @@ h3,h6,p
   font-size: 22px;
   font-weight: 600;
   color: #FFFFFF;
-  padding : 15px 0px 10px;
+  padding : 10px 0px 10px;
   
 }
 
@@ -369,7 +371,6 @@ h3,h6,p
 .arrow-path-container
 {
   display: flex;
-  padding-top: 10px;
 }
 
 .arrow-path-text
@@ -378,13 +379,13 @@ h3,h6,p
   font-size: 16px;
   font-weight: 600;
   color: #FFFFFF;
-  padding:20px 0px;
+  padding: 15px 0px;
 }
 
   .right-arrow
 {
   padding-left: 3px;
-  padding-top:17px;
+  padding-top: 11px;
 }
 
 .title-pink
@@ -393,7 +394,7 @@ h3,h6,p
   font-family: "Spartan", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  padding:15px 0px;
+  padding: 20px 0px;
 }
 
 .title-sub
@@ -402,7 +403,6 @@ h3,h6,p
   font-family: "Spartan", sans-serif;
   font-size: 32px;
   font-weight: 600;
-  padding:20px 0px;
 }
 
 @media screen and (min-width: 1024px) 
@@ -447,14 +447,15 @@ h3,h6,p
   background-color: #181818;
 }
 
+.see-whats-new-container
+{
+  padding: 100px 20px;
+}
+
 .see-whats-new-header
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: #181818;
-  height: 150px;
-  padding-left: 30px;
+  margin-bottom: 30px;
 }
 
 .labs-section-container
@@ -495,7 +496,6 @@ width:110px;
   align-items: center;
   width:315px;
   height:46px;
-  padding-bottom: 20px;
 }
 .labs-line
 {
@@ -572,10 +572,10 @@ height:100%;
   justify-content: space-between;
   padding:25px 20px;
   border-radius:20px;
-  margin-top:2px;
+  margin-top: 20px;
 }
 
-.certifiation-logo
+.certification-logo
 { 
  padding-bottom: 10px;
 }
@@ -589,7 +589,7 @@ height:100%;
   display: flex;
   background-color:#181818;
   flex-direction: row;
-  padding: 50px 50px;
+  padding: 50px 15px;
   justify-content:space-between;
 }
 
