@@ -1022,16 +1022,27 @@ height:100%;
 {
   display: flex;
   flex-direction:column ;
+  align-items:center;
   padding-left: 10px;
-  background-color: #000;
-  padding:40px 30px 40px;
+  background-color: #181818;
+  padding:60px  40px 60px;
 }
+.try-for-free-heading 
+  {
+   font-family: "Spartan", sans-serif;
+   color: #ffffff;
+   font-size: 30px;
+   line-height: normal;
+   text-align: center;
+   font-weight: 700;
+  }
+
 .bottom-try-for-free-button
 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 15px;
   letter-spacing: 0.5px;
-  padding: 18px 50px;
+  padding: 16px 70px;
   border-radius: 2px;
   color: #fff;
   background-color:#F05A28;
@@ -1050,8 +1061,11 @@ height:100%;
   align-items: center;
   padding-left: 10px;
   justify-content: space-between;
-  background-color: #000;
-  padding:70px;
+  padding: 80px 70px;
 }
+.try-for-free-heading 
+  {
+   font-size: 40px;
+  }
 
 }
